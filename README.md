@@ -12,6 +12,7 @@ Check here the Material-UI docs: https://material-ui.com/
 Make sure you have [Docker](https://www.docker.com/get-started) installed before using it ;)
 
 For the full experience to test locally how it runs on productions:
+- remove the line ```"homepage": "https://reconnectcmi.github.io/search-bar/"``` from the ```package.json```
 - Create a image from the Docker file: ```docker build . -t searchbar:latest```
 - Run the container: ```docker run --publish 8080:8080 searchbar:latest```
 - Go to ```http://localhost:8080/``` and enjoy :)
