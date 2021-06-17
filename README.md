@@ -1,4 +1,4 @@
-![beautifull badge](https://github.com/ReconnectCMI/onepager/actions/workflows/build-deploy.yml/badge.svg?branch=main)
+![beautifull badge](https://github.com/ReconnectCMI/search-bar/actions/workflows/build-deploy.yml/badge.svg?branch=main)
 # Get started
 Check here the Material-UI docs: https://material-ui.com/
 ## Usage
