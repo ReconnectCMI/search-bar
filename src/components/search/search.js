@@ -36,7 +36,7 @@ class Search extends React.Component {
         }).map((data, key) => {
           return(
           <div key={key}>
-            <Icon title={data.title} description={data.description}/>
+            <Icon link={data.link} image={data.image} title={data.title} description={data.description}/>
           </div>
           )
         })

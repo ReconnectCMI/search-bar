@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
 
 function talkDirtyToMe(titleText, descriptionText) {
     const ut = new SpeechSynthesisUtterance(titleText + "" + descriptionText);
+    ut.rate = 0.8;
     speechSynthesis.speak(ut);
 }
 
