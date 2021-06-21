@@ -7,11 +7,11 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import PropTypes from 'prop-types';
 import SpeakIcon from '../Speak/SpeakIcon';
-
+import CardHeader from '@material-ui/core/CardHeader';
 
 const useStyles = makeStyles({
     root: {
-        maxWidth: 345,
+        maxWidth: 300,
     },
     media: {
         height: 140,
@@ -23,7 +23,12 @@ export default function Icon(props) {
 
     return (
         //add the onclick to
-        <Card className={classes.root}>
+        <Card className={classes.root} elevation={3}>
+            <CardHeader 
+                action={
+                    <SpeakIcon speak={props.speech} title={props.title} description={props.description}/>
+                }
+            />
             <CardActionArea>
                 <CardMedia
                     className={classes.media}
@@ -34,12 +39,8 @@ export default function Icon(props) {
                     <Typography gutterBottom variant="h5" component="h2">
                         {props.title}
                     </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                        {props.description}
-                    </Typography>
                 </CardContent>
             </CardActionArea>
-            <SpeakIcon speak={props.speech} title={props.title} description={props.description}/>
         </Card>
     );
 }
