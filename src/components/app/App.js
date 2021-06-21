@@ -7,9 +7,12 @@ import React from 'react';
 import Icon from '../icon/icons';
 import { speech } from '../Speak/Speak';
 
+import Search from '../search/search';
+
 function App() {
   return (
     <Container maxWidth="sm" className="App">
+      <Search/>
       <Paper>
         <img src={logo} className="App-logo" alt="logo" />
         <Typography variant="h4" component="h1" gutterBottom>
