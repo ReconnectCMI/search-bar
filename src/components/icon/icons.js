@@ -6,6 +6,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import PropTypes from 'prop-types';
+import TransitionsModal from '../modal/modal';
 
 
 const useStyles = makeStyles({
@@ -19,11 +20,14 @@ const useStyles = makeStyles({
 
 export default function Icon(props) {
     const classes = useStyles();
+    
 
     return (
+        
         //add the onclick to
         <Card className={classes.root}>
-            <CardActionArea>
+            <TransitionsModal/>
+            <CardActionArea onClick={TransitionsModal.prototype.handleOpen}>
                 <CardMedia
                     className={classes.media}
                     image={props.image}
