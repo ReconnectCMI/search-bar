@@ -18,9 +18,6 @@ class Search extends React.Component {
       }
     
       render(){
-        const styleInfo = {
-          paddingRight:'10px'
-        }
         const elementStyle ={
           border:'solid',
           borderRadius:'10px',
