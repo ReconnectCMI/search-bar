@@ -18,9 +18,6 @@ class Search extends React.Component {
       }
     
       render(){
-        const styleInfo = {
-          paddingRight:'10px'
-        }
         const elementStyle ={
           border:'solid',
           borderRadius:'10px',
@@ -34,13 +31,13 @@ class Search extends React.Component {
         const items = Data.filter((data)=>{
           if(this.state.search == null)
               return data
-          else if(data.name.toLowerCase().includes(this.state.search.toLowerCase()) || data.country.toLowerCase().includes(this.state.search.toLowerCase())){
+          else if(data.title.toLowerCase().includes(this.state.search.toLowerCase()) || data.description.toLowerCase().includes(this.state.search.toLowerCase())){
               return data
           }
         }).map((data, key) => {
           return(
           <div key={key}>
-            <Icon image={} title={} description={}/>
+            <Icon title={data.title} description={data.description}/>
           </div>
           )
         })
