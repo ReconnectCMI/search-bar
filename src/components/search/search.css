@@ -1,0 +1,14 @@
+.contain {
+    clear: both;
+}
+
+.contain-search {
+    background-color: #18933C;
+    height: 10rem;
+    clear: both;
+    padding-left: 46px;
+}
+
+.grid {
+    width: 90%;
+}
