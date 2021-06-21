@@ -11,7 +11,9 @@ import CardHeader from '@material-ui/core/CardHeader';
 
 const useStyles = makeStyles({
     root: {
-        maxWidth: 300,
+        maxWidth: 400,
+        minWidth: 300,
+        margin: '20px 50px 20px 50px'
     },
     media: {
         height: 140,
