@@ -13,13 +13,14 @@ import PropTypes from 'prop-types';
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
-
 // import SpeakIcon from '../Speak/SpeakIcon';
+import SpeakIcon from '../Speak/SpeakIcon';
+import CardHeader from '@material-ui/core/CardHeader';
 
 
 const useStyles = makeStyles((theme) =>({
     root: {
-        maxWidth: 345,
+        maxWidth: 300,
     },
     media: {
         height: 140,
@@ -54,6 +55,11 @@ export default function Icon(props) {
 
     return (
         <Card className={classes.root}>
+            <CardHeader 
+              action={
+                  <SpeakIcon speak={props.speech} title={props.title} description={props.description}/>
+                }
+            />
             <Modal
                 aria-labelledby="transition-modal-title"
                 aria-describedby="transition-modal-description"
@@ -84,9 +90,6 @@ export default function Icon(props) {
                     <Typography gutterBottom variant="h5" component="h2">
                         {props.title}
                     </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                        {props.description}
-                    </Typography>
                 </CardContent>
             </CardActionArea>
         </Card>
@@ -96,5 +99,6 @@ export default function Icon(props) {
 Icon.propTypes = {
     image: PropTypes.image,
     title: PropTypes.string,
-    description: PropTypes.string
+    description: PropTypes.string,
+    speech: PropTypes.object,
 };

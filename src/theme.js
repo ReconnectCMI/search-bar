@@ -5,28 +5,31 @@ const theme = createMuiTheme({
   palette: {
     type: 'light',
     primary: {
-      main: '#61dafb',
-      light: '#61dafb',
-      dark: '#21a1c4',
+      main: '#18933C',
+      light: '#18933C',
+      dark: '#18933C',
     },
     secondary: {
-      main: '#b5ecfb',
-      light: '#61dafb',
-      dark: '#21a1c4',
+      main: '#ffffff',
+      light: '#ffffff',
+      dark: '#ffffff',
     },
     error: {
       main: red.A400,
     },
     background: {
-      default: '#282c34',
+      default: '#ffffff',
     },
+  },
+  typography: {
+    fontFamily: 'Rubik',
   },
   overrides: {
     MuiPaper: {
       root: {
-        padding: '20px 10px',
-        margin: '10px',
-        backgroundColor: '#fff', // 5d737e
+        padding: '0',
+        marginBottom: '20px',
+        // backgroundColor: '#fff', // 5d737e
       },
     },
     MuiButton: {

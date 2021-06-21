@@ -22,7 +22,6 @@ class Search extends React.Component {
           border:'solid',
           borderRadius:'10px',
           position:'relative',
-          left:'10vh',
           height:'3vh',
           width:'20vh',
           marginTop:'5vh',
@@ -45,6 +44,7 @@ class Search extends React.Component {
         return (
           <div>
           <input type="text" placeholder="Enter item to be searched" style={elementStyle} onChange={(e)=>this.searchSpace(e)} />
+          <h2>Informatie & diensten</h2>
           {items}
           </div>
         )

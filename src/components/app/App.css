@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.Header {
+  text-align: left;
+  color: white;
+}
+
+.PaperHeader {
+  width: 100%;
+  background-color: #18933C!important;
+  padding: 25px;
+}
