@@ -6,6 +6,8 @@ import Search from '../search/search';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 
+import Search from '../search/search';
+
 function App() {
   return (
     <Container maxWidth="100%" className="App">
