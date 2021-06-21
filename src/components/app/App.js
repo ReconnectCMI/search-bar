@@ -1,7 +1,6 @@
 import './App.css';
 import Container from '@material-ui/core/Container';
-import React from 'react';
-import Paper from '@material-ui/core/Paper';
+import {React} from 'react';
 import Search from '../search/search';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
@@ -9,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 function App() {
   return (
     <Container maxWidth="100%" className="App">
-      <Paper className="PaperHeader" elevation={3}>
+      <div className="PaperHeader">
         <Grid container spacing={3} className="PaperHeader">
           <Grid item xs={6} className="Header">
             <Typography variant="h6">
@@ -34,7 +33,7 @@ function App() {
             </Typography>
           </Grid>
         </Grid>
-      </Paper>
+      </div>
       <Search/>
     </Container>
   );
