@@ -4,6 +4,8 @@ import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import { Button, Paper } from '@material-ui/core';
 import React from 'react';
+import Icon from '../icon/icons';
+import { speech } from '../Speak/Speak';
 
 function App() {
   return (
@@ -17,9 +19,10 @@ function App() {
           Primary Button
         </Button>
         <Button variant="contained" color="secondary">
-          Secondary Button
+          Secondary Button yas
         </Button>
       </Paper>
+      <Icon title="Hallo" description="Ik ben een hele mooie knaap." speech={speech}/>
     </Container>
   );
 }

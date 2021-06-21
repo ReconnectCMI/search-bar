@@ -6,6 +6,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import PropTypes from 'prop-types';
+import SpeakIcon from '../Speak/SpeakIcon';
 
 
 const useStyles = makeStyles({
@@ -38,6 +39,7 @@ export default function Icon(props) {
                     </Typography>
                 </CardContent>
             </CardActionArea>
+            <SpeakIcon speak={props.speech} title={props.title} description={props.description}/>
         </Card>
     );
 }
@@ -45,5 +47,6 @@ export default function Icon(props) {
 Icon.propTypes = {
     image: PropTypes.image,
     title: PropTypes.string,
-    description: PropTypes.string
+    description: PropTypes.string,
+    speech: PropTypes.object,
 };
