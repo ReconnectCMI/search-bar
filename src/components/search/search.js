@@ -70,11 +70,18 @@ class Search extends React.Component {
                 </div>
           <h2>Informatie & diensten</h2>
           <Grid className="grid" container justify="center" >
-            {[0, 1, 2].map((value) => (
-              <Grid key={value} item>
-                {items}
+              <Grid key={1} item>
+                {items[0]}
+                {items[3]}
               </Grid>
-            ))}
+              <Grid key={2} item>
+                {items[1]}
+                {items[4]}
+              </Grid>
+              <Grid key={3} item>
+                {items[2]}
+                {items[5]}
+              </Grid>
           </Grid>
           </div>
         )

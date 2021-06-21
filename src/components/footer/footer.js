@@ -7,13 +7,13 @@ import Link from '@material-ui/core/Link';
 
 function Footer() {
   return (
-    <Paper className="PaperHeader" elevation={3}>
-        <Grid container spacing={3} className="PaperHeader">
+    <Paper className="Footer" elevation={0}>
+        <Grid container spacing={3} className="PaperFooter">
         <Grid item xs={4} className="Header">
-            <Typography variant="h6">
+            <Typography variant="body2">
               Veelbezocht
             </Typography><br/>
-            <Typography variant="body2">
+            <Typography variant="caption">
                 
                 <Link href="#" className="footerLinks" color="inherit">
                     Parkeren
@@ -30,29 +30,13 @@ function Footer() {
                 <Link href="#" className="footerLinks" color="inherit">
                     Belastingen
                 </Link><br />
-                <Link href="#" className="footerLinks" color="inherit">
-                    Tijdelijke Ondersteuning Noodzakelijke Kosten (TONK)
-                </Link><br />
-                <Link href="#" className="footerLinks" color="inherit">
-                    Bellen
-                </Link><br />
-                <Link href="#" className="footerLinks" color="inherit">
-                    Uitzendingen gemeenteraad en gemeenteraadscommissies
-                </Link><br />
-                <Link href="#" className="footerLinks" color="inherit">
-                    Afval
-                </Link><br />
-                <Link href="#" className="footerLinks" color="inherit">
-                    Langskomen bij de gemeente Rotterdam
-                </Link>
-                
             </Typography>
           </Grid>
           <Grid item xs={4} className="Header">
-            <Typography variant="h6">
+            <Typography variant="body2">
               Snel regelen
             </Typography><br/>
-            <Typography variant="body2">
+            <Typography variant="caption">
                 <Link href="#" className="footerLinks" color="inherit">
                     Aanmelden parkeren bezoek en mantelzorgers
                 </Link><br />
@@ -71,10 +55,10 @@ function Footer() {
             </Typography>
           </Grid>
           <Grid item xs={4} className="Header">
-            <Typography variant="h6">
+            <Typography variant="body2">
               Contact
             </Typography><br/>
-            <Typography variant="body2">
+            <Typography variant="caption">
                 <Link href="#" className="footerLinks" color="inherit">
                     Bellen naar 14 010
                 </Link><br />

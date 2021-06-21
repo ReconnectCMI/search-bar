@@ -1,3 +1,15 @@
 footerLinks{
 text-decoration: underline!important;
 }
+
+.Footer {
+    margin-top: 50px;
+    max-width: 100vw - 24px;
+}
+
+.PaperFooter {
+    width: 100%;
+    background-color: #18933C!important;
+    padding: 25px;
+    margin-bottom: 0;
+}

@@ -23,8 +23,10 @@ import videogesprekIcon from '../../img/videogesprek.png';
 const useStyles = makeStyles((theme) =>({
     root: {
         minWidth: 250,
-        margin: '20px 50px 20px 50px'
+        margin: '20px 20px 20px 20px',
         maxWidth: 250,
+        maxHeight: 280,
+        minHeight: 280,
     },
     media: {
         height: 100,

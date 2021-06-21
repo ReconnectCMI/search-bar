@@ -1,5 +1,5 @@
 import './App.css';
-import Container from '@material-ui/core/Container';
+import Box from '@material-ui/core/Box';
 import {React} from 'react';
 import Search from '../search/search';
 import Footer from '../footer/footer'
@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 
 function App() {
   return (
-    <Container maxWidth="100%" className="App">
+    <Box maxWidth="100vw" className="App">
       <div className="PaperHeader">
         <Grid container spacing={3} className="PaperHeader">
           <Grid item xs={6} className="Header">
@@ -37,7 +37,7 @@ function App() {
       </div>
       <Search/>
       <Footer/>
-    </Container>
+    </Box>
   );
 }
 
