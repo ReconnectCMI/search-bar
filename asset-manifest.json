@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/search-bar/static/css/main.8573f445.chunk.css",
-    "main.js": "/search-bar/static/js/main.2a3ccb88.chunk.js",
-    "main.js.map": "/search-bar/static/js/main.2a3ccb88.chunk.js.map",
-    "runtime-main.js": "/search-bar/static/js/runtime-main.c203cf64.js",
-    "runtime-main.js.map": "/search-bar/static/js/runtime-main.c203cf64.js.map",
-    "static/js/2.11ea6f96.chunk.js": "/search-bar/static/js/2.11ea6f96.chunk.js",
-    "static/js/2.11ea6f96.chunk.js.map": "/search-bar/static/js/2.11ea6f96.chunk.js.map",
-    "static/js/3.58df99a5.chunk.js": "/search-bar/static/js/3.58df99a5.chunk.js",
-    "static/js/3.58df99a5.chunk.js.map": "/search-bar/static/js/3.58df99a5.chunk.js.map",
+    "main.css": "/search-bar/static/css/main.a9ca0d9e.chunk.css",
+    "main.js": "/search-bar/static/js/main.b70216db.chunk.js",
+    "main.js.map": "/search-bar/static/js/main.b70216db.chunk.js.map",
+    "runtime-main.js": "/search-bar/static/js/runtime-main.e0cf23be.js",
+    "runtime-main.js.map": "/search-bar/static/js/runtime-main.e0cf23be.js.map",
+    "static/js/2.68ee00b6.chunk.js": "/search-bar/static/js/2.68ee00b6.chunk.js",
+    "static/js/2.68ee00b6.chunk.js.map": "/search-bar/static/js/2.68ee00b6.chunk.js.map",
+    "static/js/3.762f5ece.chunk.js": "/search-bar/static/js/3.762f5ece.chunk.js",
+    "static/js/3.762f5ece.chunk.js.map": "/search-bar/static/js/3.762f5ece.chunk.js.map",
     "index.html": "/search-bar/index.html",
-    "static/css/main.8573f445.chunk.css.map": "/search-bar/static/css/main.8573f445.chunk.css.map",
-    "static/js/2.11ea6f96.chunk.js.LICENSE.txt": "/search-bar/static/js/2.11ea6f96.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/search-bar/static/media/logo.6ce24c58.svg"
+    "static/css/main.a9ca0d9e.chunk.css.map": "/search-bar/static/css/main.a9ca0d9e.chunk.css.map",
+    "static/js/2.68ee00b6.chunk.js.LICENSE.txt": "/search-bar/static/js/2.68ee00b6.chunk.js.LICENSE.txt",
+    "static/media/verhuizen.34c21cd3.png": "/search-bar/static/media/verhuizen.34c21cd3.png",
+    "static/media/videogesprek.d21954bf.png": "/search-bar/static/media/videogesprek.d21954bf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c203cf64.js",
-    "static/js/2.11ea6f96.chunk.js",
-    "static/css/main.8573f445.chunk.css",
-    "static/js/main.2a3ccb88.chunk.js"
+    "static/js/runtime-main.e0cf23be.js",
+    "static/js/2.68ee00b6.chunk.js",
+    "static/css/main.a9ca0d9e.chunk.css",
+    "static/js/main.b70216db.chunk.js"
   ]
 }
