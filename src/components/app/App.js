@@ -2,6 +2,7 @@ import './App.css';
 import Container from '@material-ui/core/Container';
 import {React} from 'react';
 import Search from '../search/search';
+import Footer from '../footer/footer'
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 
@@ -35,6 +36,7 @@ function App() {
         </Grid>
       </div>
       <Search/>
+      <Footer/>
     </Container>
   );
 }
