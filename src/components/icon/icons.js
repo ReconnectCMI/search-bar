@@ -102,7 +102,7 @@ export default function Icon(props) {
                     image={props.image}
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h6" component="h2">
+                    <Typography gutterBottom variant="body1" component="h2">
                         {props.title}
                     </Typography>
                 </CardContent>
