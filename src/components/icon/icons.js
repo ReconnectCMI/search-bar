@@ -25,8 +25,8 @@ const useStyles = makeStyles((theme) => ({
         minWidth: 250,
         margin: '20px 20px 20px 20px',
         maxWidth: 250,
-        maxHeight: 280,
-        minHeight: 280,
+        maxHeight: 300,
+        minHeight: 300,
     },
     media: {
         height: 100,
@@ -85,11 +85,11 @@ export default function Icon(props) {
                         <p>{props.moreInfo}</p>
                         <Button target="_blank" href={props.link} variant="contained" color="primary" disableElevation>
                             <img width="100px" src={toetsenbordIcon} />
-                        Zelf invullen
+                            Zelf invullen
                         </Button>
                         <Button target="_blank" href="https://digitalebalie.rotterdam.nl/" variant="contained" color="primary" disableElevation>
                             <img width="93px" src={videogesprekIcon} />
-                        Via de digitale balie
+                            Via de digitale balie
                         </Button>
                         <SpeakIcon speak={props.speech} title={props.title} description={props.description + " U kunt er voor kiezen om het zelf in te vullen of om het te doen online via de digitale balie"} />
                     </div>
