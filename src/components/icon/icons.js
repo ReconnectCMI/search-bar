@@ -100,10 +100,9 @@ export default function Icon(props) {
                 <CardMedia
                     className={classes.media}
                     image={props.image}
-                    title="Contemplative Reptile"
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant="h6" component="h2">
                         {props.title}
                     </Typography>
                 </CardContent>
