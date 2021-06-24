@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/search-bar/static/css/main.995ea08f.chunk.css",
-    "main.js": "/search-bar/static/js/main.2f979e6f.chunk.js",
-    "main.js.map": "/search-bar/static/js/main.2f979e6f.chunk.js.map",
-    "runtime-main.js": "/search-bar/static/js/runtime-main.02948c0b.js",
-    "runtime-main.js.map": "/search-bar/static/js/runtime-main.02948c0b.js.map",
-    "static/js/2.62f9b8ef.chunk.js": "/search-bar/static/js/2.62f9b8ef.chunk.js",
-    "static/js/2.62f9b8ef.chunk.js.map": "/search-bar/static/js/2.62f9b8ef.chunk.js.map",
-    "static/js/3.6afcf479.chunk.js": "/search-bar/static/js/3.6afcf479.chunk.js",
-    "static/js/3.6afcf479.chunk.js.map": "/search-bar/static/js/3.6afcf479.chunk.js.map",
+    "main.css": "/search-bar/static/css/main.ef54bcd8.chunk.css",
+    "main.js": "/search-bar/static/js/main.ef135b4d.chunk.js",
+    "main.js.map": "/search-bar/static/js/main.ef135b4d.chunk.js.map",
+    "runtime-main.js": "/search-bar/static/js/runtime-main.3e3870d8.js",
+    "runtime-main.js.map": "/search-bar/static/js/runtime-main.3e3870d8.js.map",
+    "static/js/2.ef677f60.chunk.js": "/search-bar/static/js/2.ef677f60.chunk.js",
+    "static/js/2.ef677f60.chunk.js.map": "/search-bar/static/js/2.ef677f60.chunk.js.map",
+    "static/js/3.fd889304.chunk.js": "/search-bar/static/js/3.fd889304.chunk.js",
+    "static/js/3.fd889304.chunk.js.map": "/search-bar/static/js/3.fd889304.chunk.js.map",
     "index.html": "/search-bar/index.html",
-    "static/css/main.995ea08f.chunk.css.map": "/search-bar/static/css/main.995ea08f.chunk.css.map",
-    "static/js/2.62f9b8ef.chunk.js.LICENSE.txt": "/search-bar/static/js/2.62f9b8ef.chunk.js.LICENSE.txt",
+    "static/css/main.ef54bcd8.chunk.css.map": "/search-bar/static/css/main.ef54bcd8.chunk.css.map",
+    "static/js/2.ef677f60.chunk.js.LICENSE.txt": "/search-bar/static/js/2.ef677f60.chunk.js.LICENSE.txt",
     "static/media/verhuizen.34c21cd3.png": "/search-bar/static/media/verhuizen.34c21cd3.png",
     "static/media/videogesprek.d21954bf.png": "/search-bar/static/media/videogesprek.d21954bf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.02948c0b.js",
-    "static/js/2.62f9b8ef.chunk.js",
-    "static/css/main.995ea08f.chunk.css",
-    "static/js/main.2f979e6f.chunk.js"
+    "static/js/runtime-main.3e3870d8.js",
+    "static/js/2.ef677f60.chunk.js",
+    "static/css/main.ef54bcd8.chunk.css",
+    "static/js/main.ef135b4d.chunk.js"
   ]
 }
