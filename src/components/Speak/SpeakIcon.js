@@ -12,17 +12,33 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-function talkDirtyToMe(titleText, descriptionText) {
-    const ut = new SpeechSynthesisUtterance(titleText + "" + descriptionText);
-    ut.rate = 0.8;
-    speechSynthesis.speak(ut);
+function talkDirtyToMe(shortAudio, longAudio, isShort, soundTime) {
+    // Old robot voice from TTS in browser API
+    // const ut = new SpeechSynthesisUtterance(titleText + "" + descriptionText);
+    // ut.rate = 0.8;
+    // speechSynthesis.speak(ut);
+    // Play our own mp3 files
+    const audio = new Audio(shortAudio);
+    audio.volume = 1;
+    if(isShort) {
+        audio.play();
+    } else {
+        const audioLong = new Audio(longAudio);
+        const soundDelay = soundTime * 1000;
+        audioLong.volume = 1;
+        audio.play();
+
+        setTimeout(function() {
+            audioLong.play();
+        }, soundDelay);
+    }
 }
 
 function SpeakIcon(props) {
     const classes = useStyles();
     return (
         <div className={classes.root}>
-            <IconButton onClick={() => talkDirtyToMe(props.title, props.description)} color="primary" aria-label="read text">
+            <IconButton onClick={() => talkDirtyToMe(props.audio, props.audioLong, props.isShort, props.soundTime)} color="primary" aria-label="read text">
                 <VolumeUp />
             </IconButton>
         </div>
@@ -30,8 +46,10 @@ function SpeakIcon(props) {
 }
 
 SpeakIcon.propTypes = {
-    title: PropTypes.string,
-    description: PropTypes.string,
+    audio: PropTypes.string,
+    audioLong: PropTypes.string,
+    soundTime: PropTypes.number,
+    isShort: PropTypes.bool,
     speak: PropTypes.object,
 };
 

@@ -25,11 +25,11 @@ const useStyles = makeStyles((theme) => ({
         minWidth: 250,
         margin: '20px 20px 20px 20px',
         maxWidth: 250,
-        maxHeight: 300,
-        minHeight: 300,
+        maxHeight: 350,
+        minHeight: 350,
     },
     media: {
-        height: 100,
+        height: 150,
     },
     modal: {
         display: 'flex',
@@ -41,8 +41,9 @@ const useStyles = makeStyles((theme) => ({
         border: '2px solid #000',
         boxShadow: theme.shadows[5],
         padding: theme.spacing(1.5, 1.5, 3),
-        width: '80%',
+        width: '60%',
         height: 'auto',
+
     },
 }));
 
@@ -62,7 +63,7 @@ export default function Icon (props) {
         <Card className={classes.root}>
             <CardHeader
                 action={
-                    <SpeakIcon speak={props.speech} title={props.title} description={props.description} />
+                    <SpeakIcon soundTime={props.soundTime} audio={props.audio} isShort={true} title={props.title} description={props.description} />
                 }
             />
             <Modal
@@ -114,13 +115,12 @@ export default function Icon (props) {
                                 </Button>
                             </Grid>
                             <Grid item xs={1} className="ModelItem">
-                                <SpeakIcon speak={props.speech} title={props.title} description={props.description + " U kunt er voor kiezen om het zelf in te vullen of om het te doen online via de digitale balie"} />
+                                <SpeakIcon soundTime={props.soundTime} audio={props.audio} audioLong={props.audioLong} isShort={false} title={props.title} description={props.description + " U kunt er voor kiezen om het zelf in te vullen of om het te doen online via de digitale balie"} />
                             </Grid>
                         </Grid>
                     </div>
                 </Fade>
             </Modal>
-
             <CardActionArea onClick={handleOpen}>
                 <CardMedia
                     className={classes.media}
@@ -143,4 +143,7 @@ Icon.propTypes = {
     moreInfo: PropTypes.string,
     speech: PropTypes.object,
     link: PropTypes.string,
+    audio: PropTypes.string,
+    audioLong: PropTypes.string,
+    soundTime: PropTypes.number,
 };
