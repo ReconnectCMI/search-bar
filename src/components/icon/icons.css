@@ -1,0 +1,17 @@
+.TitleModel {
+    margin-bottom: 15px;
+}
+
+.ModelItem2{
+    background-color: rgb(24, 147, 60, 0.2);
+}
+
+.IconText {
+    padding-left: 10px;
+}
+
+.CloseButton {
+    position: absolute;
+    color: rgba(194, 63, 63, 0.836);
+    left: 85%;
+}
