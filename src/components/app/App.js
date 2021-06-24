@@ -6,11 +6,15 @@ import Footer from '../footer/footer'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 import NavBar from '../nav/nav'
+import { Container } from '@material-ui/core'
 
 function App () {
   return (
     <Box maxWidth="100vw" className="App">
+      <NavBar/>
       <div className="PaperHeader">
+      <Container maxWidth="md" component="header">
+
         <Grid container spacing={3} className="PaperHeader">
           <Grid item xs={12} className="Header">
             <Typography variant="h6">
@@ -23,6 +27,7 @@ function App () {
             </Typography>
           </Grid>
         </Grid>
+        </Container>
       </div>
       <Search />
       <Footer />

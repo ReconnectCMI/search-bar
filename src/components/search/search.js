@@ -7,6 +7,8 @@ import InputBase from '@material-ui/core/InputBase';
 import IconButton from '@material-ui/core/IconButton';
 import SearchIcon from '@material-ui/icons/Search';
 import Grid from '@material-ui/core/Grid';
+import { Container } from '@material-ui/core'
+
 
 class Search extends React.Component {
 
@@ -53,7 +55,7 @@ class Search extends React.Component {
     return (
       <div className="contain">
         <div className="contain-search">
-
+        <Container maxWidth="md" component="header">
           <Paper component="form" style={styles.root}>
             <InputBase
               style={styles.input}
@@ -66,6 +68,7 @@ class Search extends React.Component {
             </IconButton>
 
           </Paper>
+          </Container>
         </div>
         <h2>Informatie & diensten</h2>
         <Grid className="grid" container justify="center" >
