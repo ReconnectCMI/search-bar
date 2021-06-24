@@ -36,7 +36,6 @@ const footers = [
     },
     footer: {
       borderTop: `1px solid ${theme.palette.divider}`,
-      backgroundColor: 'green',
       borderRadius: 0,
       marginTop: theme.spacing(8),
       paddingTop: theme.spacing(3),
@@ -50,7 +49,7 @@ const footers = [
         textAlign: 'left',
     },
     backcolor: {
-        backgroundColor: 'green'
+        backgroundColor: '#18933C'
     }
   }));
 
