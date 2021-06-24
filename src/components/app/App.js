@@ -1,12 +1,13 @@
-import './App.css';
-import Box from '@material-ui/core/Box';
-import {React} from 'react';
-import Search from '../search/search';
+import './App.css'
+import Box from '@material-ui/core/Box'
+import { React } from 'react'
+import Search from '../search/search'
 import Footer from '../footer/footer'
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid'
+import Typography from '@material-ui/core/Typography'
+import NavBar from '../nav/nav'
 
-function App() {
+function App () {
   return (
     <Box maxWidth="100vw" className="App">
       <div className="PaperHeader">
@@ -23,10 +24,10 @@ function App() {
           </Grid>
         </Grid>
       </div>
-      <Search/>
-      <Footer/>
+      <Search />
+      <Footer />
     </Box>
-  );
+  )
 }
 
-export default App;
+export default App

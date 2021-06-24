@@ -46,10 +46,9 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function Icon(props) {
-    const classes = useStyles();
-    const [open, setOpen] = React.useState(false);
-
+export default function Icon (props) {
+  const classes = useStyles()
+  const [open, setOpen] = React.useState(false)
     const handleOpen = () => {
 
         setOpen(true);
