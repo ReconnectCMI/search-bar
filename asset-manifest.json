@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/search-bar/static/css/main.ef54bcd8.chunk.css",
-    "main.js": "/search-bar/static/js/main.ef135b4d.chunk.js",
-    "main.js.map": "/search-bar/static/js/main.ef135b4d.chunk.js.map",
+    "main.css": "/search-bar/static/css/main.7d61b0ed.chunk.css",
+    "main.js": "/search-bar/static/js/main.2e61e04d.chunk.js",
+    "main.js.map": "/search-bar/static/js/main.2e61e04d.chunk.js.map",
     "runtime-main.js": "/search-bar/static/js/runtime-main.3e3870d8.js",
     "runtime-main.js.map": "/search-bar/static/js/runtime-main.3e3870d8.js.map",
     "static/js/2.ef677f60.chunk.js": "/search-bar/static/js/2.ef677f60.chunk.js",
@@ -10,15 +10,28 @@
     "static/js/3.fd889304.chunk.js": "/search-bar/static/js/3.fd889304.chunk.js",
     "static/js/3.fd889304.chunk.js.map": "/search-bar/static/js/3.fd889304.chunk.js.map",
     "index.html": "/search-bar/index.html",
-    "static/css/main.ef54bcd8.chunk.css.map": "/search-bar/static/css/main.ef54bcd8.chunk.css.map",
+    "static/css/main.7d61b0ed.chunk.css.map": "/search-bar/static/css/main.7d61b0ed.chunk.css.map",
     "static/js/2.ef677f60.chunk.js.LICENSE.txt": "/search-bar/static/js/2.ef677f60.chunk.js.LICENSE.txt",
+    "static/media/briefadres-more-info.a347556d.mp3": "/search-bar/static/media/briefadres-more-info.a347556d.mp3",
+    "static/media/briefadres.51ed5477.mp3": "/search-bar/static/media/briefadres.51ed5477.mp3",
+    "static/media/buitenland-more-info.608a653b.mp3": "/search-bar/static/media/buitenland-more-info.608a653b.mp3",
+    "static/media/buitenland.1e987f73.mp3": "/search-bar/static/media/buitenland.1e987f73.mp3",
+    "static/media/eerstevestiging-more-info.e62a20aa.mp3": "/search-bar/static/media/eerstevestiging-more-info.e62a20aa.mp3",
+    "static/media/eerstevestiging.e3825592.mp3": "/search-bar/static/media/eerstevestiging.e3825592.mp3",
+    "static/media/huisnummer-more-info.1954e2b7.mp3": "/search-bar/static/media/huisnummer-more-info.1954e2b7.mp3",
+    "static/media/huisnummer.0a233a34.mp3": "/search-bar/static/media/huisnummer.0a233a34.mp3",
+    "static/media/huisvestigingsvergunning-more-info.745d3029.mp3": "/search-bar/static/media/huisvestigingsvergunning-more-info.745d3029.mp3",
+    "static/media/huisvestigingsvergunning.42d1cc07.mp3": "/search-bar/static/media/huisvestigingsvergunning.42d1cc07.mp3",
+    "static/media/huisvesting.ec122649.png": "/search-bar/static/media/huisvesting.ec122649.png",
+    "static/media/verhuizen-more-info.1b7b088d.mp3": "/search-bar/static/media/verhuizen-more-info.1b7b088d.mp3",
+    "static/media/verhuizen.0f4ab650.mp3": "/search-bar/static/media/verhuizen.0f4ab650.mp3",
     "static/media/verhuizen.34c21cd3.png": "/search-bar/static/media/verhuizen.34c21cd3.png",
     "static/media/videogesprek.d21954bf.png": "/search-bar/static/media/videogesprek.d21954bf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3e3870d8.js",
     "static/js/2.ef677f60.chunk.js",
-    "static/css/main.ef54bcd8.chunk.css",
-    "static/js/main.ef135b4d.chunk.js"
+    "static/css/main.7d61b0ed.chunk.css",
+    "static/js/main.2e61e04d.chunk.js"
   ]
 }
