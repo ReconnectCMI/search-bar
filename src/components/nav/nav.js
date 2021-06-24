@@ -18,7 +18,8 @@ const useStyles = makeStyles(theme => ({
     marginRight: theme.spacing(2)
   },
   title: {
-    flexGrow: 1
+    flexGrow: 1,
+    textAlign: 'left'
   },
   appbar: {
     marginBottom: '0',
