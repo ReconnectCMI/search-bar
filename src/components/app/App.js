@@ -11,7 +11,7 @@ function App() {
     <Box maxWidth="100vw" className="App">
       <div className="PaperHeader">
         <Grid container spacing={3} className="PaperHeader">
-          <Grid item xs={6} className="Header">
+          <Grid item xs={12} className="Header">
             <Typography variant="h6">
               Welkom meneer/mevrouw
             </Typography>
@@ -19,18 +19,6 @@ function App() {
               Mijn Loket, het digitale loket van de gemeente Rotterdam heeft een nieuw uiterlijk gekregen. 
               U kunt hier informatie vinden over producten en diensten van de gemeente en uw zaken direct regelen en inzien. 
               Ook kunt u zien wanneer u een afspraak heeft en de voortgang van uw verzoek bekijken.
-            </Typography>
-          </Grid>
-          <Grid item xs={6} className="Header">
-            <Typography variant="h6">
-              Veelbezocht
-            </Typography>
-            <Typography variant="body2">
-              - Ik wil een afspraak maken bij een Vraagwijzer<br/>
-              - Ik wil verhuizen. <br/>
-              - Ik wil een akte of uittreksel van mijn persoonsgegevens (BRP) aanvragen. <br/>
-              - Ik wil een parkeerproduct aanvragen/inzien/wijzigen. <br/>
-              - Ik wil mijn belastingzaken regelen <br/>
             </Typography>
           </Grid>
         </Grid>

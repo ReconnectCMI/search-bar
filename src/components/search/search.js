@@ -8,7 +8,6 @@ import IconButton from '@material-ui/core/IconButton';
 import SearchIcon from '@material-ui/icons/Search';
 import Grid from '@material-ui/core/Grid';
 
-
 class Search extends React.Component {
 
   constructor() {

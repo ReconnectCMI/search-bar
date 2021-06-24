@@ -1,15 +1,11 @@
 import React from 'react';
-
 import { makeStyles } from '@material-ui/core/styles';
-
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-
 import Typography from '@material-ui/core/Typography';
 import PropTypes from 'prop-types';
-
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
@@ -19,6 +15,10 @@ import CardHeader from '@material-ui/core/CardHeader';
 import Button from '@material-ui/core/Button';
 import toetsenbordIcon from '../../img/toetsenbord.png';
 import videogesprekIcon from '../../img/videogesprek.png';
+import Grid from '@material-ui/core/Grid';
+import './icons.css';
+import IconButton from '@material-ui/core/IconButton';
+import Cancel from '@material-ui/icons/Cancel';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -40,9 +40,9 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: theme.palette.background.paper,
         border: '2px solid #000',
         boxShadow: theme.shadows[5],
-        padding: theme.spacing(2, 4, 3),
+        padding: theme.spacing(1.5, 1.5, 3),
         width: '80%',
-        height: '70%',
+        height: 'auto',
     },
 }));
 
@@ -80,18 +80,44 @@ export default function Icon(props) {
             >
                 <Fade in={open}>
                     <div className={classes.paper}>
-                        <h2 id="transition-modal-title">{props.title}</h2>
-                        <p id="transition-modal-description">{props.description}</p>
-                        <p>{props.moreInfo}</p>
-                        <Button target="_blank" href={props.link} variant="contained" color="primary" disableElevation>
-                            <img width="100px" src={toetsenbordIcon} />
-                            Zelf invullen
-                        </Button>
-                        <Button target="_blank" href="https://digitalebalie.rotterdam.nl/" variant="contained" color="primary" disableElevation>
-                            <img width="93px" src={videogesprekIcon} />
-                            Via de digitale balie
-                        </Button>
-                        <SpeakIcon speak={props.speech} title={props.title} description={props.description + " U kunt er voor kiezen om het zelf in te vullen of om het te doen online via de digitale balie"} />
+                        <div className="CloseButton">
+                            <IconButton onClick={handleClose} color="inherit" aria-label="sluiten">
+                                <Cancel />
+                            </IconButton>
+                        </div>
+                        <Grid container spacing={3} className="ModalGrid">
+                            <Grid item xs={8} className="ModelItem">
+                                <Typography variant="h6">
+                                    <p className="TitleModel">{props.title}</p>
+                                </Typography>
+                                <Typography variant="body2">
+                                    {props.description}
+                                </Typography>
+                            </Grid>
+                            <Grid item xs={4} className="ModelItem2">
+                                <Typography variant="h6">
+                                <p className="TitleModel">Meer informatie</p>
+                                </Typography>
+                                <Typography variant="body2">
+                                    {props.moreInfo}
+                                </Typography>
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={3} className="ModalGridButtons">
+                            <Grid item xs={11} className="ModelItem">
+                                <Button target="_blank" href={props.link} variant="contained" color="primary" disableElevation>
+                                    <img width="100px" src={toetsenbordIcon} />
+                                    <p className="IconText">Zelf invullen</p>
+                                </Button>
+                                <Button target="_blank" href="https://digitalebalie.rotterdam.nl/" variant="contained" color="primary" disableElevation>
+                                    <img width="93px" src={videogesprekIcon} />
+                                    <p className="IconText">Via de digitale balie</p>
+                                </Button>
+                            </Grid>
+                            <Grid item xs={1} className="ModelItem">
+                                <SpeakIcon speak={props.speech} title={props.title} description={props.description + " U kunt er voor kiezen om het zelf in te vullen of om het te doen online via de digitale balie"} />
+                            </Grid>
+                        </Grid>
                     </div>
                 </Fade>
             </Modal>

@@ -14,7 +14,6 @@ function Footer() {
               Veelbezocht
             </Typography><br/>
             <Typography variant="caption">
-                
                 <Link href="#" className="footerLinks" color="inherit">
                     Parkeren
                 </Link><br />
